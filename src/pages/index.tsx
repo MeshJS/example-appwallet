@@ -24,6 +24,7 @@ export default function Home() {
     const signedTx = await wallet.signTx(unsignedTx);
     const txHash = await wallet.submitTx(signedTx);
     console.log(txHash);
+    // success tx: https://preprod.cardanoscan.io/transaction/c6451b05e9e87c959d825a89e15a66a4f166a78dd3124ee5a9e0d19f6c63cfcb
   }
 
   async function appwalletstart() {
@@ -88,6 +89,7 @@ export default function Home() {
     const signedTx = await wallet.signTx(unsignedTx);
     const txHash = await wallet.submitTx(signedTx);
     console.log(txHash);
+    // success tx: https://preprod.cardanoscan.io/transaction/1ee308107e7c54d8e92a7961bcf9f0df61602969d20f1bca0610dff86bd05e19
   }
 
   return (
